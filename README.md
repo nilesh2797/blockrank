@@ -24,8 +24,6 @@ This work introduces BlockRank, a method designed to make LLMs efficient and sca
 2. **Query-token retrieval signals**
   → Certain query tokens (e.g., delimiters) encode strong relevance signals in their attention patterns during the prefill stage.
 
----
-
 ### Method Summary
 
 Based on these observations, BlockRank modifies both the architecture and training of an LLM:
